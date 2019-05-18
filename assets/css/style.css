@@ -18,7 +18,9 @@
 .navbar {
     background-color: #030308;
     overflow: hidden;
-    height: 63;
+    height: 80;
+    position: relative;
+    display: block;
 }
 
 .navbar a {
