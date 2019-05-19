@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
 /* TITLE */
 h1 {
-    font-family: 'Akronim', cursive, Courier, monospace;
+    font-family: 'Rye', cursive, Courier, monospace;
+    font-size: 85px;
+    text-align: center;
+    background: url('../img/natural_paper.png');
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    background: url('../img/mosaic.png');
+
 }
 /* OWL */
 .wrapper {
@@ -11,7 +22,8 @@ h1 {
 }
 .item {
     background: red;
-    height: 400px;
+    height: auto;
+    width: 100%;
 }
 .owl-dots {
     display: none;
@@ -21,7 +33,7 @@ h1 {
     display: inline;
 }
 .navbar {
-    background-color: #030308;
+    background-color: #004b06bb;
     overflow: hidden;
     height: 63;
     position: relative;
@@ -35,7 +47,8 @@ h1 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size:17px;
+    font-size:24px;
+    font-family: 'Rye', Courier, monospace;
 }
 
 .navbar ul{
@@ -69,6 +82,7 @@ h1 {
     color: #ff4646;
     display: block;
     transition: 0.3s;
+    font-family: 'Rye', Courier, monospace;
 }
 
 .side-nav a:hover{
@@ -93,8 +107,13 @@ h1 {
 
 @media(max-width: 586px){
     .navbar-nav{display: none;}
+    h1{ font-size: 45px;}
 }
 
 @media(min-width: 586px){
     .open-slide{display: none;}
+    img{
+        height: auto;
+        width: 100%;
+    }
 }
