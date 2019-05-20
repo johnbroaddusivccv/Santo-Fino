@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css?family=New+Rocker&display=swap');
 /* TITLE */
 h1 {
     font-family: 'Rye', cursive, Courier, monospace;
@@ -115,7 +116,7 @@ body {
 
 /* ABOUT */
 .aboutSaint {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'New Rocker', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
 
@@ -125,7 +126,7 @@ body {
 }
 
 .shape {
-    margin-top: 95px;
+    margin-top: 50px;
     width: 0;
     height: 0;
     border-top: 259px solid transparent;
@@ -192,6 +193,7 @@ body {
 }
 
 .color-3{
+    /* padding-top: 10px; */
     color: #d6c6b2;
 }
 
@@ -201,13 +203,15 @@ body {
 
 p{
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .btn-danger{
     border-radius: 0;
     padding: 10px 20px;
+    font-size: 26px;
 }
 
 
