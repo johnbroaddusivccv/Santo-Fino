@@ -1,4 +1,5 @@
-#Jesse Saint Montoya // Official Website **UNDER CONSTRUCTION**
+Jesse Saint Montoya // Official Website
+=========
 ***
 Freelace work for a Musician
 ---------
